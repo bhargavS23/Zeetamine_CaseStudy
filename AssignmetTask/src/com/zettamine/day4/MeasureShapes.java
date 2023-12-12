@@ -24,7 +24,7 @@ public class MeasureShapes {
 		double width = scn.nextDouble();
 		shape[2] = new Rectangle(length, width);
 		
-		System.out.print("Enter length of cube");
+		System.out.print("Enter length of cube: ");
 		double cubLength = scn.nextDouble();
 		System.out.print("Enter width of cube: ");
 		double cubWidth = scn.nextDouble();
@@ -43,8 +43,6 @@ public class MeasureShapes {
 			if(shape[i] instanceof Spatial) {
 				System.out.printf("Volume : %.2f \n",shape[i].volume());
 			}
-		}
-		
+		}	
 	}
-
 }

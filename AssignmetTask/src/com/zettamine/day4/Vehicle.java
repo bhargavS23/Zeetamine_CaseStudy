@@ -66,6 +66,5 @@ public class Vehicle implements Loan,Insurance {
 			return this.price * 0.50;
 		}
 		return 0;
-	}
-	
+	}	
 }
